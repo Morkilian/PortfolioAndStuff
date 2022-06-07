@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TFE_Toon_Lightning PBR
+  m_Shader: {fileID: 4800000, guid: 1f78a6cf5cc58ee4dad45fdcf8fa076f, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseColor:
+        m_Texture: {fileID: 2800000, guid: 9826a89fc70098e4399e93e3ffe070c3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GradientMainLight:
+        m_Texture: {fileID: 2800000, guid: 1f954128d2444a343aae9300911d559b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GradientOtherLights:
+        m_Texture: {fileID: 2800000, guid: 1f954128d2444a343aae9300911d559b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AmbientLightInfluence: 0.2
+    - _BaseColorType: 0
+    - _FallOff: 0.5
+    - _Float0: 0.569
+    - _GlossInAlbedoAlpha: 0
+    - _InvertGlossiness: 0
+    - _LightAttenuationPosition1: 0.5
+    - _LightAttenuationWidth1: 0.1
+    - _MaxGlossiness: 1
+    - _MaxGradient: 1
+    - _Metalness: 0.022
+    - _MinGradient: 0
+    - _NormalScale: 1
+    - _OutputSelection: 3
+    - _Smoothness: 0.435
+    - _SmoothnessMultiplier: 1
+    - _Tiling: 1
+    - _UseMeshNormal: 0
+    - __dirty: 0
+    m_Colors:
+    - _MainColor: {r: 0.7830189, g: 0.13665895, b: 0.13665895, a: 0.9019608}
+    - _MainColor1: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

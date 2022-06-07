@@ -1,0 +1,68 @@
+#pragma kernel CSMain
+
+#define THREADGROUP_X 16
+
+RWTexture2D<float3> outGradient;
+//x time, y value
+float4 curveValues[10];
+float snapValue = 1;
+float invTextureSize;
+float time;
+float maxPoints;
+
+
+float GiveOutput(float currentTime)
+{
+    for(int i=0; i< maxPoints; i++)
+    {
+        if(curveValues[i].x>currentTime) //We find the value to the right
+        {
+            if(i==0)  //Meaning it's the first point, then we can only snap to this value
+            {
+                return curveValues[0].y;
+                
+            }
+            else //Our pixel is between two values
+            {
+                if(snapValue == 0)//We don't snap, but interpolate
+                {
+                    float alpha = (currentTime - curveValues[i-1].x)/(curveValues[i].x - curveValues[i-1].x);
+                    return lerp(curveValues[i-1].y, curveValues[i].y,alpha);
+                    
+                }
+                else //Does snap
+                {
+                    return curveValues[i-1].y;
+                    
+                }
+            }
+        }
+        else if(i == maxPoints-1)//We've reached the last point without finding a point on the right, we snap to the last value
+        {
+            return curveValues[i].y;                
+        }
+    }
+    return 1;
+}
+
+/*
+Runs the texture separated in THREADGROUP_X number of batches
+Then at each pixel, calculates its own "time" in the gradient (0 to 1), locates the left and right point
+And then after getting the values of both of them, either do an interpolation or snaps to the left value
+*/
+[numthreads(THREADGROUP_X,1,1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+    float currentPoint = id.x;
+    float currentTime = (currentPoint +0.5f)*invTextureSize;
+    float output =GiveOutput(currentTime); 
+    
+    
+    
+
+    //outGradient[id.xy] = float3(output,output,output)*1.0;
+    //outGradient[id.xy] = float3(id.x*(1.0/256.0),0,0); 
+    outGradient[id.xy] = float3(output,output,output);
+} 
+
+

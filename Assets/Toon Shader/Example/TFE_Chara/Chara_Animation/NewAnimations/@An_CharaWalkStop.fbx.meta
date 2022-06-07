@@ -1,0 +1,1181 @@
+fileFormatVersion: 2
+guid: 90b87cd7abe388b4fa5133d30004d491
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: An_CharaWalkNewStop
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: Export_rig_grp
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: An_CharaWalkNewStop
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Export_rig_grp
+        weight: 0
+      - path: Export_rig_grp/CenterCordon
+        weight: 0
+      - path: Export_rig_grp/KatanaBox
+        weight: 1
+      - path: Export_rig_grp/KatanaBox_geo
+        weight: 1
+      - path: Export_rig_grp/KatanaSword
+        weight: 1
+      - path: Export_rig_grp/KatanaSword_geo
+        weight: 1
+      - path: Export_rig_grp/LeftBand_Mesh
+        weight: 0
+      - path: Export_rig_grp/LeftButterfly_Mesh
+        weight: 0
+      - path: Export_rig_grp/LeftTresse_Mesh
+        weight: 0
+      - path: Export_rig_grp/Main_Character
+        weight: 0
+      - path: Export_rig_grp/RightBand_Mesh
+        weight: 0
+      - path: Export_rig_grp/RightButterfly_Mesh
+        weight: 0
+      - path: Export_rig_grp/RightTresse_Mesh
+        weight: 0
+      - path: Export_rig_grp/Root
+        weight: 0
+      - path: Export_rig_grp/Root/Cordon
+        weight: 0
+      - path: Export_rig_grp/Root/Cordon/Cordon3
+        weight: 0
+      - path: Export_rig_grp/Root/Cordon/Cordon3/Cordon4
+        weight: 0
+      - path: Export_rig_grp/Root/Cordon/Cordon3/Cordon4/Cordon5
+        weight: 0
+      - path: Export_rig_grp/Root/Cordon/Cordon3/Cordon4/Cordon5/Cordon6
+        weight: 0
+      - path: Export_rig_grp/Root/Cordon/Cordon3/Cordon4/Cordon5/Cordon6/Cordon7_end
+        weight: 0
+      - path: Export_rig_grp/Root/Cordon/Cordon9
+        weight: 0
+      - path: Export_rig_grp/Root/Cordon/Cordon9/Cordon8_end
+        weight: 0
+      - path: Export_rig_grp/Root/Cordon/Cordon11
+        weight: 0
+      - path: Export_rig_grp/Root/Cordon/Cordon11/Cordon10_end
+        weight: 0
+      - path: Export_rig_grp/Root/Hips
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/LeftUpLeg
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/LeftUpLeg/LeftLeg
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/LeftUpLeg/LeftLeg/LeftFoot/LeftToeBase/LeftToeBase_end
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/RightUpLeg
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/RightUpLeg/RightLeg
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/RightUpLeg/RightLeg/RightFoot
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/RightUpLeg/RightLeg/RightFoot/RightToeBase/RightToeBase_end
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/LeftShoulder
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandIndex1
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandIndex1/LeftHandIndex2
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandIndex1/LeftHandIndex2/LeftHandIndex3/LeftHandIndex_end
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandMiddle1
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandMiddle1/LeftHandMiddle2
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandMiddle1/LeftHandMiddle2/LeftHandMiddle3/LeftHandMiddle_end
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandPinky1
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandPinky1/LeftHandPinky2
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandPinky1/LeftHandPinky2/LeftHandPinky3/LeftHandPinky_end
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandRing1
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandRing1/LeftHandRing2
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandRing1/LeftHandRing2/LeftHandRing3/LeftHandRing_end
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandThumb1
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandThumb1/LeftHandThumb2
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/LeftShoulder/LeftArm/LeftForeArm/LeftHand/LeftHandThumb1/LeftHandThumb2/LeftHandThumb3/LeftHandThumb_end
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/Neck
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/Neck/Hair1
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/Neck/Hair1/Hair2
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/Neck/Hair1/Hair2/Hair3
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/Neck/Hair1/Hair2/Hair3/Hair4
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/Neck/Hair1/Hair2/Hair3/Hair4/Hair_end
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/Neck/Head
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/Neck/Head/Head_end
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/RightShoulder
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandIndex1
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandIndex1/RightHandIndex2
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandIndex1/RightHandIndex2/RightHandIndex3/RightHandIndex_end
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandMiddle1
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandMiddle1/RightHandMiddle2
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandMiddle1/RightHandMiddle2/RightHandMiddle3/RightHandMiddle_end
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandPinky1
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandPinky1/RightHandPinky2
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandPinky1/RightHandPinky2/RightHandPinky3/RightHandPinky_end
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandRing1
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandRing1/RightHandRing2
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandRing1/RightHandRing2/RightHandRing3
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandRing1/RightHandRing2/RightHandRing3/RightHandRing_end
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandThumb1
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandThumb1/RightHandThumb2
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3
+        weight: 0
+      - path: Export_rig_grp/Root/Hips/Spine/Spine1/Spine2/RightShoulder/RightArm/RightForeArm/RightHand/RightHandThumb1/RightHandThumb2/RightHandThumb3/RightHandThumb_end
+        weight: 0
+      - path: Export_rig_grp/Root/LeftBand
+        weight: 0
+      - path: Export_rig_grp/Root/LeftBand/LeftBand2
+        weight: 0
+      - path: Export_rig_grp/Root/LeftBand/LeftBand2/LeftBand3
+        weight: 0
+      - path: Export_rig_grp/Root/LeftBand/LeftBand2/LeftBand3/LeftBand4
+        weight: 0
+      - path: Export_rig_grp/Root/LeftBand/LeftBand2/LeftBand3/LeftBand4/LeftBand5
+        weight: 0
+      - path: Export_rig_grp/Root/LeftBand/LeftBand2/LeftBand3/LeftBand4/LeftBand5/LeftBand6
+        weight: 0
+      - path: Export_rig_grp/Root/LeftBand/LeftBand2/LeftBand3/LeftBand4/LeftBand5/LeftBand6/LeftBand7
+        weight: 0
+      - path: Export_rig_grp/Root/LeftBand/LeftBand2/LeftBand3/LeftBand4/LeftBand5/LeftBand6/LeftBand7/LeftBand8
+        weight: 0
+      - path: Export_rig_grp/Root/LeftBand/LeftBand2/LeftBand3/LeftBand4/LeftBand5/LeftBand6/LeftBand7/LeftBand8/LeftBand_end
+        weight: 0
+      - path: Export_rig_grp/Root/LeftButterfly
+        weight: 0
+      - path: Export_rig_grp/Root/LeftButterfly/LeftButterfly1
+        weight: 0
+      - path: Export_rig_grp/Root/LeftButterfly/LeftButterfly1/LeftButterfly2
+        weight: 0
+      - path: Export_rig_grp/Root/LeftButterfly/LeftButterfly1/LeftButterfly2/LeftButterfly3
+        weight: 0
+      - path: Export_rig_grp/Root/LeftButterfly/LeftButterfly1/LeftButterfly2/LeftButterfly3/LeftButterfly_end
+        weight: 0
+      - path: Export_rig_grp/Root/LeftTresse
+        weight: 0
+      - path: Export_rig_grp/Root/LeftTresse/LeftTresse1
+        weight: 0
+      - path: Export_rig_grp/Root/LeftTresse/LeftTresse1/LeftTresse2
+        weight: 0
+      - path: Export_rig_grp/Root/LeftTresse/LeftTresse1/LeftTresse2/LeftTresse3
+        weight: 0
+      - path: Export_rig_grp/Root/LeftTresse/LeftTresse1/LeftTresse2/LeftTresse3/LeftTresse4
+        weight: 0
+      - path: Export_rig_grp/Root/LeftTresse/LeftTresse1/LeftTresse2/LeftTresse3/LeftTresse4/LeftTresse5
+        weight: 0
+      - path: Export_rig_grp/Root/LeftTresse/LeftTresse1/LeftTresse2/LeftTresse3/LeftTresse4/LeftTresse5/LeftTresse_end
+        weight: 0
+      - path: Export_rig_grp/Root/RightBand
+        weight: 0
+      - path: Export_rig_grp/Root/RightBand/RightBand2
+        weight: 0
+      - path: Export_rig_grp/Root/RightBand/RightBand2/RightBand3
+        weight: 0
+      - path: Export_rig_grp/Root/RightBand/RightBand2/RightBand3/RightBand4
+        weight: 0
+      - path: Export_rig_grp/Root/RightBand/RightBand2/RightBand3/RightBand4/RightBand5
+        weight: 0
+      - path: Export_rig_grp/Root/RightBand/RightBand2/RightBand3/RightBand4/RightBand5/RightBand6
+        weight: 0
+      - path: Export_rig_grp/Root/RightBand/RightBand2/RightBand3/RightBand4/RightBand5/RightBand6/RightBand7
+        weight: 0
+      - path: Export_rig_grp/Root/RightBand/RightBand2/RightBand3/RightBand4/RightBand5/RightBand6/RightBand7/RightBand8
+        weight: 0
+      - path: Export_rig_grp/Root/RightBand/RightBand2/RightBand3/RightBand4/RightBand5/RightBand6/RightBand7/RightBand8/RightBand_end
+        weight: 0
+      - path: Export_rig_grp/Root/RightButterfly
+        weight: 0
+      - path: Export_rig_grp/Root/RightButterfly/RightButterfly1
+        weight: 0
+      - path: Export_rig_grp/Root/RightButterfly/RightButterfly1/RightButterfly2
+        weight: 0
+      - path: Export_rig_grp/Root/RightButterfly/RightButterfly1/RightButterfly2/RightButterfly3
+        weight: 0
+      - path: Export_rig_grp/Root/RightButterfly/RightButterfly1/RightButterfly2/RightButterfly3/RightButterfly_end
+        weight: 0
+      - path: Export_rig_grp/Root/RightTresse
+        weight: 0
+      - path: Export_rig_grp/Root/RightTresse/RightTresse1
+        weight: 0
+      - path: Export_rig_grp/Root/RightTresse/RightTresse1/RightTresse2
+        weight: 0
+      - path: Export_rig_grp/Root/RightTresse/RightTresse1/RightTresse2/RightTresse3
+        weight: 0
+      - path: Export_rig_grp/Root/RightTresse/RightTresse1/RightTresse2/RightTresse3/RightTresse4
+        weight: 0
+      - path: Export_rig_grp/Root/RightTresse/RightTresse1/RightTresse2/RightTresse3/RightTresse4/RightTresse5
+        weight: 0
+      - path: Export_rig_grp/Root/RightTresse/RightTresse1/RightTresse2/RightTresse3/RightTresse4/RightTresse5/RightTresse_end
+        weight: 0
+      - path: rig_grp
+        weight: 0
+      - path: rig_grp/Butterfly_rig_grp
+        weight: 0
+      - path: rig_grp/Butterfly_rig_grp/LeftButerfly_rig
+        weight: 0
+      - path: rig_grp/Butterfly_rig_grp/LeftButerfly_rig/controllers_const_grp 6
+        weight: 0
+      - path: rig_grp/Butterfly_rig_grp/LeftButerfly_rig/controllers_const_grp 6/LeftButterfly_result_grp
+        weight: 0
+      - path: rig_grp/Butterfly_rig_grp/LeftButerfly_rig/controllers_const_grp 6/LeftButterfly_result_grp/LeftButterfly_result
+        weight: 0
+      - path: rig_grp/Butterfly_rig_grp/LeftButerfly_rig/controllers_const_grp 6/LeftButterfly_result_grp/LeftButterfly_result/LeftButterfly1_result
+        weight: 0
+      - path: rig_grp/Butterfly_rig_grp/LeftButerfly_rig/controllers_const_grp 6/LeftButterfly_result_grp/LeftButterfly_result/LeftButterfly1_result/LeftButterfly2_result
+        weight: 0
+      - path: rig_grp/Butterfly_rig_grp/LeftButerfly_rig/controllers_const_grp 6/LeftButterfly_result_grp/LeftButterfly_result/LeftButterfly1_result/LeftButterfly2_result/LeftButterfly3_result
+        weight: 0
+      - path: rig_grp/Butterfly_rig_grp/LeftButerfly_rig/do_not_touch 13
+        weight: 0
+      - path: rig_grp/Butterfly_rig_grp/LeftButerfly_rig/do_not_touch 13/controllers_const_grp
+          11
+        weight: 0
+      - path: rig_grp/Butterfly_rig_grp/LeftButerfly_rig/do_not_touch 13/controllers_const_grp
+          11/LeftButterfly1_ctrl
+        weight: 0
+      - path: rig_grp/Butterfly_rig_grp/LeftButerfly_rig/do_not_touch 13/controllers_const_grp
+          11/LeftButterfly1_ctrl/LeftButterfly2_ctrl
+        weight: 0
+      - path: rig_grp/Butterfly_rig_grp/LeftButerfly_rig/do_not_touch 13/controllers_const_grp
+          11/LeftButterfly1_ctrl/LeftButterfly2_ctrl/LeftButterfly3_ctrl
+        weight: 0
+      - path: rig_grp/Butterfly_rig_grp/RightButterfly_rig
+        weight: 0
+      - path: rig_grp/Butterfly_rig_grp/RightButterfly_rig/controllers_const_grp
+          7
+        weight: 0
+      - path: rig_grp/Butterfly_rig_grp/RightButterfly_rig/controllers_const_grp
+          7/RightButterfly_ctrl
+        weight: 0
+      - path: rig_grp/Butterfly_rig_grp/RightButterfly_rig/controllers_const_grp
+          7/RightButterfly_ctrl/RightButterfly1_ctrl
+        weight: 0
+      - path: rig_grp/Butterfly_rig_grp/RightButterfly_rig/controllers_const_grp
+          7/RightButterfly_ctrl/RightButterfly1_ctrl/RightButterfly2_ctrl
+        weight: 0
+      - path: rig_grp/Butterfly_rig_grp/RightButterfly_rig/controllers_const_grp
+          7/RightButterfly_ctrl/RightButterfly1_ctrl/RightButterfly2_ctrl/RightButterfly3_ctrl
+        weight: 0
+      - path: rig_grp/Butterfly_rig_grp/RightButterfly_rig/do_not_touch 14
+        weight: 0
+      - path: rig_grp/Butterfly_rig_grp/RightButterfly_rig/do_not_touch 14/RightButterfly_result
+        weight: 0
+      - path: rig_grp/Butterfly_rig_grp/RightButterfly_rig/do_not_touch 14/RightButterfly_result/RightButterfly_result
+          1
+        weight: 0
+      - path: rig_grp/Butterfly_rig_grp/RightButterfly_rig/do_not_touch 14/RightButterfly_result/RightButterfly_result
+          1/RightButterfly1_result
+        weight: 0
+      - path: rig_grp/Butterfly_rig_grp/RightButterfly_rig/do_not_touch 14/RightButterfly_result/RightButterfly_result
+          1/RightButterfly1_result/RightButterfly2_result
+        weight: 0
+      - path: rig_grp/Butterfly_rig_grp/RightButterfly_rig/do_not_touch 14/RightButterfly_result/RightButterfly_result
+          1/RightButterfly1_result/RightButterfly2_result/RightButterfly3_result
+        weight: 0
+      - path: rig_grp/LeftTresse_rig_grp
+        weight: 0
+      - path: rig_grp/LeftTresse_rig_grp/controllers_const_grp
+        weight: 0
+      - path: rig_grp/LeftTresse_rig_grp/controllers_const_grp/LeftTresse_ctrl_rst
+        weight: 0
+      - path: rig_grp/LeftTresse_rig_grp/controllers_const_grp/LeftTresse_ctrl_rst/LeftTresse1_ctrl
+        weight: 0
+      - path: rig_grp/LeftTresse_rig_grp/controllers_const_grp/LeftTresse_ctrl_rst/LeftTresse1_ctrl/LeftTresse2_ctrl
+        weight: 0
+      - path: rig_grp/LeftTresse_rig_grp/controllers_const_grp/LeftTresse_ctrl_rst/LeftTresse1_ctrl/LeftTresse2_ctrl/LeftTresse3_ctrl
+        weight: 0
+      - path: rig_grp/LeftTresse_rig_grp/controllers_const_grp/LeftTresse_ctrl_rst/LeftTresse1_ctrl/LeftTresse2_ctrl/LeftTresse3_ctrl/LeftTresse4_ctrl
+        weight: 0
+      - path: rig_grp/LeftTresse_rig_grp/controllers_const_grp/LeftTresse_ctrl_rst/LeftTresse1_ctrl/LeftTresse2_ctrl/LeftTresse3_ctrl/LeftTresse4_ctrl/LeftTresse5_ctrl
+        weight: 0
+      - path: rig_grp/LeftTresse_rig_grp/do_not_touch
+        weight: 0
+      - path: rig_grp/LeftTresse_rig_grp/do_not_touch/LeftTresse_result_rst
+        weight: 0
+      - path: rig_grp/LeftTresse_rig_grp/do_not_touch/LeftTresse_result_rst/LeftTresse_result
+        weight: 0
+      - path: rig_grp/LeftTresse_rig_grp/do_not_touch/LeftTresse_result_rst/LeftTresse_result/LeftTresse1_result
+        weight: 0
+      - path: rig_grp/LeftTresse_rig_grp/do_not_touch/LeftTresse_result_rst/LeftTresse_result/LeftTresse1_result/LeftTresse2_result
+        weight: 0
+      - path: rig_grp/LeftTresse_rig_grp/do_not_touch/LeftTresse_result_rst/LeftTresse_result/LeftTresse1_result/LeftTresse2_result/LeftTresse3_result
+        weight: 0
+      - path: rig_grp/LeftTresse_rig_grp/do_not_touch/LeftTresse_result_rst/LeftTresse_result/LeftTresse1_result/LeftTresse2_result/LeftTresse3_result/LeftTresse4_result
+        weight: 0
+      - path: rig_grp/LeftTresse_rig_grp/do_not_touch/LeftTresse_result_rst/LeftTresse_result/LeftTresse1_result/LeftTresse2_result/LeftTresse3_result/LeftTresse4_result/LeftTresse5_result
+        weight: 0
+      - path: rig_grp/rig_Band_grp
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Leftband_grp
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Leftband_grp/controllers_const_grp 8
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Leftband_grp/controllers_const_grp 8/RightBand_ctrl2
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Leftband_grp/controllers_const_grp 8/RightBand_ctrl2/RightBand_ctrl3
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Leftband_grp/controllers_const_grp 8/RightBand_ctrl2/RightBand_ctrl3/RightBand_ctrl4
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Leftband_grp/controllers_const_grp 8/RightBand_ctrl2/RightBand_ctrl3/RightBand_ctrl4/RightBand_ctrl5
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Leftband_grp/controllers_const_grp 8/RightBand_ctrl2/RightBand_ctrl3/RightBand_ctrl4/RightBand_ctrl5/RightBand_ctrl6
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Leftband_grp/controllers_const_grp 8/RightBand_ctrl2/RightBand_ctrl3/RightBand_ctrl4/RightBand_ctrl5/RightBand_ctrl6/RightBand_ctrl7
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Leftband_grp/controllers_const_grp 8/RightBand_ctrl2/RightBand_ctrl3/RightBand_ctrl4/RightBand_ctrl5/RightBand_ctrl6/RightBand_ctrl7/RightBand_ctrl8
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Leftband_grp/do_not_touch 15
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Leftband_grp/do_not_touch 15/RightBand_result_rst
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Leftband_grp/do_not_touch 15/RightBand_result_rst/RightBand_result
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Leftband_grp/do_not_touch 15/RightBand_result_rst/RightBand_result/RightBand_result2
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Leftband_grp/do_not_touch 15/RightBand_result_rst/RightBand_result/RightBand_result2/RightBand_result3
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Leftband_grp/do_not_touch 15/RightBand_result_rst/RightBand_result/RightBand_result2/RightBand_result3/RightBand_result4
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Leftband_grp/do_not_touch 15/RightBand_result_rst/RightBand_result/RightBand_result2/RightBand_result3/RightBand_result4/RightBand_result5
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Leftband_grp/do_not_touch 15/RightBand_result_rst/RightBand_result/RightBand_result2/RightBand_result3/RightBand_result4/RightBand_result5/RightBand_result6
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Leftband_grp/do_not_touch 15/RightBand_result_rst/RightBand_result/RightBand_result2/RightBand_result3/RightBand_result4/RightBand_result5/RightBand_result6/RightBand_result7
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Leftband_grp/do_not_touch 15/RightBand_result_rst/RightBand_result/RightBand_result2/RightBand_result3/RightBand_result4/RightBand_result5/RightBand_result6/RightBand_result7/RightBand_result8
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Rightband_grp
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Rightband_grp/controllers_const_grp 9
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Rightband_grp/controllers_const_grp 9/RightBand_ctrl2
+          1
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Rightband_grp/controllers_const_grp 9/RightBand_ctrl2
+          1/RightBand_ctrl3 1
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Rightband_grp/controllers_const_grp 9/RightBand_ctrl2
+          1/RightBand_ctrl3 1/RightBand_ctrl4 1
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Rightband_grp/controllers_const_grp 9/RightBand_ctrl2
+          1/RightBand_ctrl3 1/RightBand_ctrl4 1/RightBand_ctrl5 1
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Rightband_grp/controllers_const_grp 9/RightBand_ctrl2
+          1/RightBand_ctrl3 1/RightBand_ctrl4 1/RightBand_ctrl5 1/RightBand_ctrl6
+          1
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Rightband_grp/controllers_const_grp 9/RightBand_ctrl2
+          1/RightBand_ctrl3 1/RightBand_ctrl4 1/RightBand_ctrl5 1/RightBand_ctrl6
+          1/RightBand_ctrl7 1
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Rightband_grp/controllers_const_grp 9/RightBand_ctrl2
+          1/RightBand_ctrl3 1/RightBand_ctrl4 1/RightBand_ctrl5 1/RightBand_ctrl6
+          1/RightBand_ctrl7 1/RightBand_ctrl8 1
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Rightband_grp/do_not_touch 16
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Rightband_grp/do_not_touch 16/RightBand_result_rst
+          1
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Rightband_grp/do_not_touch 16/RightBand_result_rst
+          1/RightBand_result 1
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Rightband_grp/do_not_touch 16/RightBand_result_rst
+          1/RightBand_result 1/RightBand_result2 1
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Rightband_grp/do_not_touch 16/RightBand_result_rst
+          1/RightBand_result 1/RightBand_result2 1/RightBand_result3 1
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Rightband_grp/do_not_touch 16/RightBand_result_rst
+          1/RightBand_result 1/RightBand_result2 1/RightBand_result3 1/RightBand_result4
+          1
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Rightband_grp/do_not_touch 16/RightBand_result_rst
+          1/RightBand_result 1/RightBand_result2 1/RightBand_result3 1/RightBand_result4
+          1/RightBand_result5 1
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Rightband_grp/do_not_touch 16/RightBand_result_rst
+          1/RightBand_result 1/RightBand_result2 1/RightBand_result3 1/RightBand_result4
+          1/RightBand_result5 1/RightBand_result6 1
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Rightband_grp/do_not_touch 16/RightBand_result_rst
+          1/RightBand_result 1/RightBand_result2 1/RightBand_result3 1/RightBand_result4
+          1/RightBand_result5 1/RightBand_result6 1/RightBand_result7 1
+        weight: 0
+      - path: rig_grp/rig_Band_grp/rig_Rightband_grp/do_not_touch 16/RightBand_result_rst
+          1/RightBand_result 1/RightBand_result2 1/RightBand_result3 1/RightBand_result4
+          1/RightBand_result5 1/RightBand_result6 1/RightBand_result7 1/RightBand_result8
+          1
+        weight: 0
+      - path: rig_grp/rig_cordon_grp
+        weight: 0
+      - path: rig_grp/rig_cordon_grp/controllers_const_grp 3
+        weight: 0
+      - path: rig_grp/rig_cordon_grp/controllers_const_grp 3/Cordon3_Ctrl
+        weight: 0
+      - path: rig_grp/rig_cordon_grp/controllers_const_grp 3/Cordon3_Ctrl/Cordon4_ctrl
+        weight: 0
+      - path: rig_grp/rig_cordon_grp/controllers_const_grp 3/Cordon3_Ctrl/Cordon4_ctrl/Cordon5_ctrl
+        weight: 0
+      - path: rig_grp/rig_cordon_grp/controllers_const_grp 3/Cordon3_Ctrl/Cordon4_ctrl/Cordon5_ctrl/Cordon6_ctrl
+        weight: 0
+      - path: rig_grp/rig_cordon_grp/do_not_touch 10
+        weight: 0
+      - path: rig_grp/rig_cordon_grp/do_not_touch 10/Cordon3_result_rst
+        weight: 0
+      - path: rig_grp/rig_cordon_grp/do_not_touch 10/Cordon3_result_rst/Cordon_result
+        weight: 0
+      - path: rig_grp/rig_cordon_grp/do_not_touch 10/Cordon3_result_rst/Cordon_result/Cordon3_result
+        weight: 0
+      - path: rig_grp/rig_cordon_grp/do_not_touch 10/Cordon3_result_rst/Cordon_result/Cordon3_result/Cordon4_result
+        weight: 0
+      - path: rig_grp/rig_cordon_grp/do_not_touch 10/Cordon3_result_rst/Cordon_result/Cordon3_result/Cordon4_result/Cordon5_result
+        weight: 0
+      - path: rig_grp/rig_cordon_grp/do_not_touch 10/Cordon3_result_rst/Cordon_result/Cordon3_result/Cordon4_result/Cordon5_result/Cordon6_result
+        weight: 0
+      - path: rig_grp/rig_Hair_grp
+        weight: 0
+      - path: rig_grp/rig_Hair_grp/controllers_const_grp 2
+        weight: 0
+      - path: rig_grp/rig_Hair_grp/controllers_const_grp 2/Hair1_ctrl
+        weight: 0
+      - path: rig_grp/rig_Hair_grp/controllers_const_grp 2/Hair1_ctrl/Hair2_ctrl
+        weight: 0
+      - path: rig_grp/rig_Hair_grp/controllers_const_grp 2/Hair1_ctrl/Hair2_ctrl/Hair3_ctrl
+        weight: 0
+      - path: rig_grp/rig_Hair_grp/controllers_const_grp 2/Hair1_ctrl/Hair2_ctrl/Hair3_ctrl/Hair4_ctrl
+        weight: 0
+      - path: rig_grp/rig_Hair_grp/do_not_touch 2
+        weight: 0
+      - path: rig_grp/rig_Hair_grp/do_not_touch 2/result_const_grp
+        weight: 0
+      - path: rig_grp/rig_Hair_grp/do_not_touch 2/result_const_grp/Hair_result_rst
+        weight: 0
+      - path: rig_grp/rig_Hair_grp/do_not_touch 2/result_const_grp/Hair_result_rst/Hair1_result
+        weight: 0
+      - path: rig_grp/rig_Hair_grp/do_not_touch 2/result_const_grp/Hair_result_rst/Hair1_result/Hair2_result
+        weight: 0
+      - path: rig_grp/rig_Hair_grp/do_not_touch 2/result_const_grp/Hair_result_rst/Hair1_result/Hair2_result/Hair3_result
+        weight: 0
+      - path: rig_grp/rig_Hair_grp/do_not_touch 2/result_const_grp/Hair_result_rst/Hair1_result/Hair2_result/Hair3_result/Hair4_result
+        weight: 0
+      - path: rig_grp/rig_head_grp
+        weight: 0
+      - path: rig_grp/rig_head_grp/controllers_const_grp 4
+        weight: 0
+      - path: rig_grp/rig_head_grp/controllers_const_grp 4/Neck_rst
+        weight: 0
+      - path: rig_grp/rig_head_grp/controllers_const_grp 4/Neck_rst/Neck_ctrl
+        weight: 0
+      - path: rig_grp/rig_head_grp/controllers_const_grp 4/Neck_rst/Neck_ctrl/Head_const_grp
+        weight: 0
+      - path: rig_grp/rig_head_grp/controllers_const_grp 4/Neck_rst/Neck_ctrl/Head_const_grp/Head_rst
+        weight: 0
+      - path: rig_grp/rig_head_grp/controllers_const_grp 4/Neck_rst/Neck_ctrl/Head_const_grp/Head_rst/Head_ctrl
+        weight: 0
+      - path: rig_grp/rig_head_grp/do_not_touch 11
+        weight: 0
+      - path: rig_grp/rig_head_grp/do_not_touch 11/neck_const_grp
+        weight: 0
+      - path: rig_grp/rig_head_grp/do_not_touch 11/neck_const_grp/Neck_ik_rst
+        weight: 0
+      - path: rig_grp/rig_head_grp/do_not_touch 11/neck_const_grp/Neck_ik_rst/Neck_ik_jnts
+        weight: 0
+      - path: rig_grp/rig_head_grp/do_not_touch 11/neck_const_grp/Neck_ik_rst/Neck_ik_jnts/Head_ik_jnts
+        weight: 0
+      - path: rig_grp/rig_head_grp/do_not_touch 11/neck_const_grp/Neck_result_rst
+        weight: 0
+      - path: rig_grp/rig_head_grp/do_not_touch 11/neck_const_grp/Neck_result_rst/Neck_result
+        weight: 0
+      - path: rig_grp/rig_head_grp/do_not_touch 11/neck_const_grp/Neck_result_rst/Neck_result/Head_result
+        weight: 0
+      - path: rig_grp/rig_head_grp/do_not_touch 11/neck_const_grp/Neck_result_rst/Neck_result/Head_result/LeftTresse_loc
+        weight: 0
+      - path: rig_grp/rig_head_grp/do_not_touch 11/neck_const_grp/Neck_result_rst/Neck_result/Head_result/RightTresse_loc
+        weight: 0
+      - path: rig_grp/rig_katana_grp
+        weight: 0
+      - path: rig_grp/rig_katana_grp/KatanaBox_rig
+        weight: 0
+      - path: rig_grp/rig_katana_grp/KatanaBox_rig/do_not_touch 17
+        weight: 0
+      - path: rig_grp/rig_katana_grp/KatanaBox_rig/do_not_touch 17/KatanaBox_result
+        weight: 0
+      - path: rig_grp/rig_katana_grp/KatanaBox_rig/do_not_touch 17/KatanaBox_result/KatanaBox_Free_loc
+        weight: 0
+      - path: rig_grp/rig_katana_grp/KatanaBox_rig/do_not_touch 17/KatanaBox_rst
+        weight: 0
+      - path: rig_grp/rig_katana_grp/KatanaBox_rig/do_not_touch 17/KatanaBox_rst/KatanaBox_ctrl
+        weight: 0
+      - path: rig_grp/rig_katana_grp/KatanaSword_rig
+        weight: 0
+      - path: rig_grp/rig_katana_grp/KatanaSword_rig/controllers_const_grp 10
+        weight: 0
+      - path: rig_grp/rig_katana_grp/KatanaSword_rig/controllers_const_grp 10/KatanaSword_ctrl
+        weight: 0
+      - path: rig_grp/rig_katana_grp/KatanaSword_rig/do_not_touch 18
+        weight: 0
+      - path: rig_grp/rig_katana_grp/KatanaSword_rig/do_not_touch 18/Katanasword_result
+        weight: 0
+      - path: rig_grp/rig_katana_grp/KatanaSword_rig/do_not_touch 18/Katanasword_result/KatanaSword_result
+        weight: 0
+      - path: rig_grp/rig_katana_grp/KatanaSword_rig/do_not_touch 18/Katanasword_result/KatanaSword_result/KatanaSwordFree_loc
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/controllers_fk_const_grp
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/controllers_fk_const_grp/LeftArm_fk_ctrl_rst
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/controllers_fk_const_grp/LeftArm_fk_ctrl_rst/LeftArm_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/controllers_fk_const_grp/LeftArm_fk_ctrl_rst/LeftArm_fk_ctrl/LeftForeArm_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/controllers_fk_const_grp/LeftArm_fk_ctrl_rst/LeftArm_fk_ctrl/LeftForeArm_fk_ctrl/LeftHand_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/controllers_ik_const_grp
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/controllers_ik_const_grp/LeftHand_ik_rst
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/controllers_ik_const_grp/LeftHand_ik_rst/LeftHand_ik_ctrl
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/do_not_touch 3
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/do_not_touch 3/result_const_grp 1
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/do_not_touch 3/result_const_grp 1/LeftArm_ik_jnts_rst
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/do_not_touch 3/result_const_grp 1/LeftArm_ik_jnts_rst/LeftArm_ik_jnts
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/do_not_touch 3/result_const_grp 1/LeftArm_ik_jnts_rst/LeftArm_ik_jnts/LeftForeArm_ik_jnts
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/do_not_touch 3/result_const_grp 1/LeftArm_ik_jnts_rst/LeftArm_ik_jnts/LeftForeArm_ik_jnts/LeftHand_ik_jnts
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/do_not_touch 3/result_const_grp 1/LeftArm_result_rst
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/do_not_touch 3/result_const_grp 1/LeftArm_result_rst/LeftArm_result
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/do_not_touch 3/result_const_grp 1/LeftArm_result_rst/LeftArm_result/LeftForeArm_result
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/do_not_touch 3/result_const_grp 1/LeftArm_result_rst/LeftArm_result/LeftForeArm_result/LeftHand_result
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/do_not_touch 3/result_const_grp 1/LeftArm_result_rst/LeftArm_result/LeftForeArm_result/LeftHand_result/LeftFingerBase_result_rst
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/do_not_touch 3/result_const_grp 1/LeftArm_result_rst/LeftArm_result/LeftForeArm_result/LeftHand_result/LeftFingerBase_result_rst/LeftHandIndex1_result
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/do_not_touch 3/result_const_grp 1/LeftArm_result_rst/LeftArm_result/LeftForeArm_result/LeftHand_result/LeftFingerBase_result_rst/LeftHandIndex1_result/LeftHandIndex2_result
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/do_not_touch 3/result_const_grp 1/LeftArm_result_rst/LeftArm_result/LeftForeArm_result/LeftHand_result/LeftFingerBase_result_rst/LeftHandIndex1_result/LeftHandIndex2_result/LeftHandIndex3_result
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/do_not_touch 3/result_const_grp 1/LeftArm_result_rst/LeftArm_result/LeftForeArm_result/LeftHand_result/LeftFingerBase_result_rst/LeftHandMiddle1_result
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/do_not_touch 3/result_const_grp 1/LeftArm_result_rst/LeftArm_result/LeftForeArm_result/LeftHand_result/LeftFingerBase_result_rst/LeftHandMiddle1_result/LeftHandMiddle2_result
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/do_not_touch 3/result_const_grp 1/LeftArm_result_rst/LeftArm_result/LeftForeArm_result/LeftHand_result/LeftFingerBase_result_rst/LeftHandMiddle1_result/LeftHandMiddle2_result/LeftHandMiddle3_result
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/do_not_touch 3/result_const_grp 1/LeftArm_result_rst/LeftArm_result/LeftForeArm_result/LeftHand_result/LeftFingerBase_result_rst/LeftHandPinky1_result
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/do_not_touch 3/result_const_grp 1/LeftArm_result_rst/LeftArm_result/LeftForeArm_result/LeftHand_result/LeftFingerBase_result_rst/LeftHandPinky1_result/LeftHandPinky2_result
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/do_not_touch 3/result_const_grp 1/LeftArm_result_rst/LeftArm_result/LeftForeArm_result/LeftHand_result/LeftFingerBase_result_rst/LeftHandPinky1_result/LeftHandPinky2_result/LeftHandPinky3_result
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/do_not_touch 3/result_const_grp 1/LeftArm_result_rst/LeftArm_result/LeftForeArm_result/LeftHand_result/LeftFingerBase_result_rst/LeftHandRing1_result
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/do_not_touch 3/result_const_grp 1/LeftArm_result_rst/LeftArm_result/LeftForeArm_result/LeftHand_result/LeftFingerBase_result_rst/LeftHandRing1_result/LeftHandRing2_result
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/do_not_touch 3/result_const_grp 1/LeftArm_result_rst/LeftArm_result/LeftForeArm_result/LeftHand_result/LeftFingerBase_result_rst/LeftHandRing1_result/LeftHandRing2_result/LeftHandRing3_result
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/do_not_touch 3/result_const_grp 1/LeftArm_result_rst/LeftArm_result/LeftForeArm_result/LeftHand_result/LeftFingerBase_result_rst/LeftHandThumb1_result
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/do_not_touch 3/result_const_grp 1/LeftArm_result_rst/LeftArm_result/LeftForeArm_result/LeftHand_result/LeftFingerBase_result_rst/LeftHandThumb1_result/LeftHandThumb2_result
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/do_not_touch 3/result_const_grp 1/LeftArm_result_rst/LeftArm_result/LeftForeArm_result/LeftHand_result/LeftFingerBase_result_rst/LeftHandThumb1_result/LeftHandThumb2_result/LeftHandThumb3_result
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/do_not_touch 3/result_const_grp 1/LeftArm_result_rst/LeftArm_result/LeftForeArm_result/LeftHand_result/LeftHand_KatanaC_Loc
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftArm_settings_rst
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftArm_settings_rst/LeftArm_settings_ctrl
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandIndex1_fk_rst1
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandIndex1_fk_rst1/LeftHandIndex1_fk_rst
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandIndex1_fk_rst1/LeftHandIndex1_fk_rst/LeftHandIndex1_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandIndex1_fk_rst1/LeftHandIndex1_fk_rst/LeftHandIndex1_fk_ctrl/LeftHandIndex2_fk_rst
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandIndex1_fk_rst1/LeftHandIndex1_fk_rst/LeftHandIndex1_fk_ctrl/LeftHandIndex2_fk_rst/LeftHandIndex2_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandIndex1_fk_rst1/LeftHandIndex1_fk_rst/LeftHandIndex1_fk_ctrl/LeftHandIndex2_fk_rst/LeftHandIndex2_fk_ctrl/LeftHandIndex3_fk_rst
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandIndex1_fk_rst1/LeftHandIndex1_fk_rst/LeftHandIndex1_fk_ctrl/LeftHandIndex2_fk_rst/LeftHandIndex2_fk_ctrl/LeftHandIndex3_fk_rst/LeftHandIndex3_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandMiddle1_fk_rst1
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandMiddle1_fk_rst1/LeftHandMiddle1_fk_rst
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandMiddle1_fk_rst1/LeftHandMiddle1_fk_rst/LeftHandMiddle1_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandMiddle1_fk_rst1/LeftHandMiddle1_fk_rst/LeftHandMiddle1_fk_ctrl/LeftHandMiddle2_fk_rst
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandMiddle1_fk_rst1/LeftHandMiddle1_fk_rst/LeftHandMiddle1_fk_ctrl/LeftHandMiddle2_fk_rst/LeftHandMiddle2_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandMiddle1_fk_rst1/LeftHandMiddle1_fk_rst/LeftHandMiddle1_fk_ctrl/LeftHandMiddle2_fk_rst/LeftHandMiddle2_fk_ctrl/LeftHandMiddle3_fk_rst
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandMiddle1_fk_rst1/LeftHandMiddle1_fk_rst/LeftHandMiddle1_fk_ctrl/LeftHandMiddle2_fk_rst/LeftHandMiddle2_fk_ctrl/LeftHandMiddle3_fk_rst/LeftHandMiddle3_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandPinky1_fk_rst1
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandPinky1_fk_rst1/LeftHandPinky1_fk_rst
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandPinky1_fk_rst1/LeftHandPinky1_fk_rst/LeftHandPinky1_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandPinky1_fk_rst1/LeftHandPinky1_fk_rst/LeftHandPinky1_fk_ctrl/LeftHandPinky2_fk_rst
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandPinky1_fk_rst1/LeftHandPinky1_fk_rst/LeftHandPinky1_fk_ctrl/LeftHandPinky2_fk_rst/LeftHandPinky2_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandPinky1_fk_rst1/LeftHandPinky1_fk_rst/LeftHandPinky1_fk_ctrl/LeftHandPinky2_fk_rst/LeftHandPinky2_fk_ctrl/LeftHandPinky3_fk_rst
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandPinky1_fk_rst1/LeftHandPinky1_fk_rst/LeftHandPinky1_fk_ctrl/LeftHandPinky2_fk_rst/LeftHandPinky2_fk_ctrl/LeftHandPinky3_fk_rst/LeftHandPinky3_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandRing1_fk_rst1
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandRing1_fk_rst1/LeftHandRing1_fk_rst
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandRing1_fk_rst1/LeftHandRing1_fk_rst/LeftHandRing1_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandRing1_fk_rst1/LeftHandRing1_fk_rst/LeftHandRing1_fk_ctrl/LeftHandRing2_fk_rst
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandRing1_fk_rst1/LeftHandRing1_fk_rst/LeftHandRing1_fk_ctrl/LeftHandRing2_fk_rst/LeftHandRing2_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandRing1_fk_rst1/LeftHandRing1_fk_rst/LeftHandRing1_fk_ctrl/LeftHandRing2_fk_rst/LeftHandRing2_fk_ctrl/LeftHandRing3_fk_rst
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandRing1_fk_rst1/LeftHandRing1_fk_rst/LeftHandRing1_fk_ctrl/LeftHandRing2_fk_rst/LeftHandRing2_fk_ctrl/LeftHandRing3_fk_rst/LeftHandRing3_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandThumb1_fk_rst1
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandThumb1_fk_rst1/LeftHandThumb1_fk_rst
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandThumb1_fk_rst1/LeftHandThumb1_fk_rst/LeftHandThumb1_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandThumb1_fk_rst1/LeftHandThumb1_fk_rst/LeftHandThumb1_fk_ctrl/LeftHandThumb2_fk_rst
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandThumb1_fk_rst1/LeftHandThumb1_fk_rst/LeftHandThumb1_fk_ctrl/LeftHandThumb2_fk_rst/LeftHandThumb2_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandThumb1_fk_rst1/LeftHandThumb1_fk_rst/LeftHandThumb1_fk_ctrl/LeftHandThumb2_fk_rst/LeftHandThumb2_fk_ctrl/LeftHandThumb3_fk_rst
+        weight: 0
+      - path: rig_grp/rig_LeftArm_grp/LeftFingerBase_fk_ctrl_rst/LeftHandThumb1_fk_rst1/LeftHandThumb1_fk_rst/LeftHandThumb1_fk_ctrl/LeftHandThumb2_fk_rst/LeftHandThumb2_fk_ctrl/LeftHandThumb3_fk_rst/LeftHandThumb3_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_LeftLeg_grp
+        weight: 0
+      - path: rig_grp/rig_LeftLeg_grp/do_not_touch 4
+        weight: 0
+      - path: rig_grp/rig_LeftLeg_grp/do_not_touch 4/result_const_grp 2
+        weight: 0
+      - path: rig_grp/rig_LeftLeg_grp/do_not_touch 4/result_const_grp 2/LeftUpLeg_result_rst
+        weight: 0
+      - path: rig_grp/rig_LeftLeg_grp/do_not_touch 4/result_const_grp 2/LeftUpLeg_result_rst/LeftUpLeg_result
+        weight: 0
+      - path: rig_grp/rig_LeftLeg_grp/do_not_touch 4/result_const_grp 2/LeftUpLeg_result_rst/LeftUpLeg_result/KatanaBox_LeftHips_rst
+        weight: 0
+      - path: rig_grp/rig_LeftLeg_grp/do_not_touch 4/result_const_grp 2/LeftUpLeg_result_rst/LeftUpLeg_result/KatanaBox_LeftHips_rst/KatanaBox_LeftHips_loc
+        weight: 0
+      - path: rig_grp/rig_LeftLeg_grp/do_not_touch 4/result_const_grp 2/LeftUpLeg_result_rst/LeftUpLeg_result/KatanaBox_LeftHips_rst/KatanaBox_LeftHips_loc/KatanaSwordHips_rst
+        weight: 0
+      - path: rig_grp/rig_LeftLeg_grp/do_not_touch 4/result_const_grp 2/LeftUpLeg_result_rst/LeftUpLeg_result/KatanaBox_LeftHips_rst/KatanaBox_LeftHips_loc/KatanaSwordHips_rst/KatanaSwordHips_Loc
+        weight: 0
+      - path: rig_grp/rig_LeftLeg_grp/do_not_touch 4/result_const_grp 2/LeftUpLeg_result_rst/LeftUpLeg_result/LeftLeg_result
+        weight: 0
+      - path: rig_grp/rig_LeftLeg_grp/do_not_touch 4/result_const_grp 2/LeftUpLeg_result_rst/LeftUpLeg_result/LeftLeg_result/LeftFoot_result
+        weight: 0
+      - path: rig_grp/rig_LeftLeg_grp/do_not_touch 4/result_const_grp 2/LeftUpLeg_result_rst/LeftUpLeg_result/LeftLeg_result/LeftFoot_result/LeftToeBase_result
+        weight: 0
+      - path: rig_grp/rig_LeftShoulder_grp
+        weight: 0
+      - path: rig_grp/rig_LeftShoulder_grp/do_not_touch 5
+        weight: 0
+      - path: rig_grp/rig_LeftShoulder_grp/do_not_touch 5/const_result_grp
+        weight: 0
+      - path: rig_grp/rig_LeftShoulder_grp/do_not_touch 5/const_result_grp/LeftShoulder_result_rst
+        weight: 0
+      - path: rig_grp/rig_LeftShoulder_grp/do_not_touch 5/const_result_grp/LeftShoulder_result_rst/LeftShoulder_result
+        weight: 0
+      - path: rig_grp/rig_LeftShoulder_grp/do_not_touch 5/controller_const_grp
+        weight: 0
+      - path: rig_grp/rig_LeftShoulder_grp/do_not_touch 5/controller_const_grp/LeftShoulder_rst
+        weight: 0
+      - path: rig_grp/rig_LeftShoulder_grp/do_not_touch 5/controller_const_grp/LeftShoulder_rst/LeftShoulder_ctrl
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/controllers_fk_const_grp 1
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/controllers_fk_const_grp 1/RightArm_fk_ctrl_rst
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/controllers_fk_const_grp 1/RightArm_fk_ctrl_rst/RightArm_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/controllers_fk_const_grp 1/RightArm_fk_ctrl_rst/RightArm_fk_ctrl/RightForeArm_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/controllers_fk_const_grp 1/RightArm_fk_ctrl_rst/RightArm_fk_ctrl/RightForeArm_fk_ctrl/RightHand_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/controllers_ik_const_grp 1
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/controllers_ik_const_grp 1/RightHand_ik_rst
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/controllers_ik_const_grp 1/RightHand_ik_rst/RightHand_ik_ctrl
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/do_not_touch 6
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/do_not_touch 6/result_const_grp 3
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/do_not_touch 6/result_const_grp 3/RightArm_ik_jnts_rst
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/do_not_touch 6/result_const_grp 3/RightArm_ik_jnts_rst/RightArm_ik_jnts
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/do_not_touch 6/result_const_grp 3/RightArm_ik_jnts_rst/RightArm_ik_jnts/RightForeArm_ik_jnts
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/do_not_touch 6/result_const_grp 3/RightArm_ik_jnts_rst/RightArm_ik_jnts/RightForeArm_ik_jnts/RightHand_ik_jnts
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/do_not_touch 6/result_const_grp 3/RightArm_result_rst
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/do_not_touch 6/result_const_grp 3/RightArm_result_rst/RightArm_result
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/do_not_touch 6/result_const_grp 3/RightArm_result_rst/RightArm_result/RightForeArm_result
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/do_not_touch 6/result_const_grp 3/RightArm_result_rst/RightArm_result/RightForeArm_result/RightHand_result
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/do_not_touch 6/result_const_grp 3/RightArm_result_rst/RightArm_result/RightForeArm_result/RightHand_result/KatanaSwordHand_rst
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/do_not_touch 6/result_const_grp 3/RightArm_result_rst/RightArm_result/RightForeArm_result/RightHand_result/KatanaSwordHand_rst/KatanaBoxHand_Loc
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/do_not_touch 6/result_const_grp 3/RightArm_result_rst/RightArm_result/RightForeArm_result/RightHand_result/KatanaSwordHand_rst/KatanaSwordHand_Loc
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/do_not_touch 6/result_const_grp 3/RightArm_result_rst/RightArm_result/RightForeArm_result/RightHand_result/KatanaSwordHand_rst/KatanaSwordHand_Loc/LeftHand_Katana
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/do_not_touch 6/result_const_grp 3/RightArm_result_rst/RightArm_result/RightForeArm_result/RightHand_result/RightFingerBase_result_rst
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/do_not_touch 6/result_const_grp 3/RightArm_result_rst/RightArm_result/RightForeArm_result/RightHand_result/RightFingerBase_result_rst/RightHandIndex1_result
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/do_not_touch 6/result_const_grp 3/RightArm_result_rst/RightArm_result/RightForeArm_result/RightHand_result/RightFingerBase_result_rst/RightHandIndex1_result/RightHandIndex2_result
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/do_not_touch 6/result_const_grp 3/RightArm_result_rst/RightArm_result/RightForeArm_result/RightHand_result/RightFingerBase_result_rst/RightHandIndex1_result/RightHandIndex2_result/RightHandIndex3_result
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/do_not_touch 6/result_const_grp 3/RightArm_result_rst/RightArm_result/RightForeArm_result/RightHand_result/RightFingerBase_result_rst/RightHandMiddle1_result
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/do_not_touch 6/result_const_grp 3/RightArm_result_rst/RightArm_result/RightForeArm_result/RightHand_result/RightFingerBase_result_rst/RightHandMiddle1_result/RightHandMiddle2_result
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/do_not_touch 6/result_const_grp 3/RightArm_result_rst/RightArm_result/RightForeArm_result/RightHand_result/RightFingerBase_result_rst/RightHandMiddle1_result/RightHandMiddle2_result/RightHandMiddle3_result
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/do_not_touch 6/result_const_grp 3/RightArm_result_rst/RightArm_result/RightForeArm_result/RightHand_result/RightFingerBase_result_rst/RightHandPinky1_result
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/do_not_touch 6/result_const_grp 3/RightArm_result_rst/RightArm_result/RightForeArm_result/RightHand_result/RightFingerBase_result_rst/RightHandPinky1_result/RightHandPinky2_result
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/do_not_touch 6/result_const_grp 3/RightArm_result_rst/RightArm_result/RightForeArm_result/RightHand_result/RightFingerBase_result_rst/RightHandPinky1_result/RightHandPinky2_result/RightHandPinky3_result
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/do_not_touch 6/result_const_grp 3/RightArm_result_rst/RightArm_result/RightForeArm_result/RightHand_result/RightFingerBase_result_rst/RightHandRing1_result
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/do_not_touch 6/result_const_grp 3/RightArm_result_rst/RightArm_result/RightForeArm_result/RightHand_result/RightFingerBase_result_rst/RightHandRing1_result/RightHandRing2_result
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/do_not_touch 6/result_const_grp 3/RightArm_result_rst/RightArm_result/RightForeArm_result/RightHand_result/RightFingerBase_result_rst/RightHandRing1_result/RightHandRing2_result/RightHandRing3_result
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/do_not_touch 6/result_const_grp 3/RightArm_result_rst/RightArm_result/RightForeArm_result/RightHand_result/RightFingerBase_result_rst/RightHandThumb1_result
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/do_not_touch 6/result_const_grp 3/RightArm_result_rst/RightArm_result/RightForeArm_result/RightHand_result/RightFingerBase_result_rst/RightHandThumb1_result/RightHandThumb2_result
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/do_not_touch 6/result_const_grp 3/RightArm_result_rst/RightArm_result/RightForeArm_result/RightHand_result/RightFingerBase_result_rst/RightHandThumb1_result/RightHandThumb2_result/RightHandThumb3_result
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightArm_settings_rst
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightArm_settings_rst/RightArm_settings_ctrl
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandIndex1_fk_rst1
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandIndex1_fk_rst1/RightHandIndex1_fk_rst
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandIndex1_fk_rst1/RightHandIndex1_fk_rst/RightHandIndex1_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandIndex1_fk_rst1/RightHandIndex1_fk_rst/RightHandIndex1_fk_ctrl/RightHandIndex2_fk_rst
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandIndex1_fk_rst1/RightHandIndex1_fk_rst/RightHandIndex1_fk_ctrl/RightHandIndex2_fk_rst/RightHandIndex2_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandIndex1_fk_rst1/RightHandIndex1_fk_rst/RightHandIndex1_fk_ctrl/RightHandIndex2_fk_rst/RightHandIndex2_fk_ctrl/RightHandIndex3_fk_rst
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandIndex1_fk_rst1/RightHandIndex1_fk_rst/RightHandIndex1_fk_ctrl/RightHandIndex2_fk_rst/RightHandIndex2_fk_ctrl/RightHandIndex3_fk_rst/RightHandIndex3_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandMiddle1_fk_rst1
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandMiddle1_fk_rst1/RightHandMiddle1_fk_rst
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandMiddle1_fk_rst1/RightHandMiddle1_fk_rst/RightHandMiddle1_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandMiddle1_fk_rst1/RightHandMiddle1_fk_rst/RightHandMiddle1_fk_ctrl/RightHandMiddle2_fk_rst
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandMiddle1_fk_rst1/RightHandMiddle1_fk_rst/RightHandMiddle1_fk_ctrl/RightHandMiddle2_fk_rst/RightHandMiddle2_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandMiddle1_fk_rst1/RightHandMiddle1_fk_rst/RightHandMiddle1_fk_ctrl/RightHandMiddle2_fk_rst/RightHandMiddle2_fk_ctrl/RightHandMiddle3_fk_rst
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandMiddle1_fk_rst1/RightHandMiddle1_fk_rst/RightHandMiddle1_fk_ctrl/RightHandMiddle2_fk_rst/RightHandMiddle2_fk_ctrl/RightHandMiddle3_fk_rst/RightHandMiddle3_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandPinky1_fk_rst1
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandPinky1_fk_rst1/RightHandPinky1_fk_rst
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandPinky1_fk_rst1/RightHandPinky1_fk_rst/RightHandPinky1_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandPinky1_fk_rst1/RightHandPinky1_fk_rst/RightHandPinky1_fk_ctrl/RightHandPinky2_fk_rst
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandPinky1_fk_rst1/RightHandPinky1_fk_rst/RightHandPinky1_fk_ctrl/RightHandPinky2_fk_rst/RightHandPinky2_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandPinky1_fk_rst1/RightHandPinky1_fk_rst/RightHandPinky1_fk_ctrl/RightHandPinky2_fk_rst/RightHandPinky2_fk_ctrl/RightHandPinky3_fk_rst
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandPinky1_fk_rst1/RightHandPinky1_fk_rst/RightHandPinky1_fk_ctrl/RightHandPinky2_fk_rst/RightHandPinky2_fk_ctrl/RightHandPinky3_fk_rst/RightHandPinky3_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandRing1_fk_rst1
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandRing1_fk_rst1/RightHandRing1_fk_rst
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandRing1_fk_rst1/RightHandRing1_fk_rst/RightHandRing1_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandRing1_fk_rst1/RightHandRing1_fk_rst/RightHandRing1_fk_ctrl/RightHandRing2_fk_rst
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandRing1_fk_rst1/RightHandRing1_fk_rst/RightHandRing1_fk_ctrl/RightHandRing2_fk_rst/RightHandRing2_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandRing1_fk_rst1/RightHandRing1_fk_rst/RightHandRing1_fk_ctrl/RightHandRing2_fk_rst/RightHandRing2_fk_ctrl/RightHandRing3_fk_rst
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandRing1_fk_rst1/RightHandRing1_fk_rst/RightHandRing1_fk_ctrl/RightHandRing2_fk_rst/RightHandRing2_fk_ctrl/RightHandRing3_fk_rst/RightHandRing3_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandThumb1_fk_rst1
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandThumb1_fk_rst1/RightHandThumb1_fk_rst
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandThumb1_fk_rst1/RightHandThumb1_fk_rst/RightHandThumb1_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandThumb1_fk_rst1/RightHandThumb1_fk_rst/RightHandThumb1_fk_ctrl/RightHandThumb2_fk_rst
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandThumb1_fk_rst1/RightHandThumb1_fk_rst/RightHandThumb1_fk_ctrl/RightHandThumb2_fk_rst/RightHandThumb2_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandThumb1_fk_rst1/RightHandThumb1_fk_rst/RightHandThumb1_fk_ctrl/RightHandThumb2_fk_rst/RightHandThumb2_fk_ctrl/RightHandThumb3_fk_rst
+        weight: 0
+      - path: rig_grp/rig_RightArm_grp/RightFingerBase_fk_ctrl_rst/RightHandThumb1_fk_rst1/RightHandThumb1_fk_rst/RightHandThumb1_fk_ctrl/RightHandThumb2_fk_rst/RightHandThumb2_fk_ctrl/RightHandThumb3_fk_rst/RightHandThumb3_fk_ctrl
+        weight: 0
+      - path: rig_grp/rig_RightLeg_grp
+        weight: 0
+      - path: rig_grp/rig_RightLeg_grp/do_not_touch 7
+        weight: 0
+      - path: rig_grp/rig_RightLeg_grp/do_not_touch 7/result_const_grp 4
+        weight: 0
+      - path: rig_grp/rig_RightLeg_grp/do_not_touch 7/result_const_grp 4/RightUpLeg_result_rst
+        weight: 0
+      - path: rig_grp/rig_RightLeg_grp/do_not_touch 7/result_const_grp 4/RightUpLeg_result_rst/RightUpLeg_result
+        weight: 0
+      - path: rig_grp/rig_RightLeg_grp/do_not_touch 7/result_const_grp 4/RightUpLeg_result_rst/RightUpLeg_result/RightLeg_result
+        weight: 0
+      - path: rig_grp/rig_RightLeg_grp/do_not_touch 7/result_const_grp 4/RightUpLeg_result_rst/RightUpLeg_result/RightLeg_result/RightFoot_result
+        weight: 0
+      - path: rig_grp/rig_RightLeg_grp/do_not_touch 7/result_const_grp 4/RightUpLeg_result_rst/RightUpLeg_result/RightLeg_result/RightFoot_result/RightToeBase_result
+        weight: 0
+      - path: rig_grp/rig_RightShoulder_grp
+        weight: 0
+      - path: rig_grp/rig_RightShoulder_grp/do_not_touch 8
+        weight: 0
+      - path: rig_grp/rig_RightShoulder_grp/do_not_touch 8/const_result_grp 1
+        weight: 0
+      - path: rig_grp/rig_RightShoulder_grp/do_not_touch 8/const_result_grp 1/RightShoulder_result_rst
+        weight: 0
+      - path: rig_grp/rig_RightShoulder_grp/do_not_touch 8/const_result_grp 1/RightShoulder_result_rst/RightShoulder_result
+        weight: 0
+      - path: rig_grp/rig_RightShoulder_grp/do_not_touch 8/controller_const_grp 1
+        weight: 0
+      - path: rig_grp/rig_RightShoulder_grp/do_not_touch 8/controller_const_grp 1/RightShoulder_rst
+        weight: 0
+      - path: rig_grp/rig_RightShoulder_grp/do_not_touch 8/controller_const_grp 1/RightShoulder_rst/RightShoulder_ctrl
+        weight: 0
+      - path: rig_grp/rig_RootMotion_grp
+        weight: 0
+      - path: rig_grp/rig_RootMotion_grp/do_not_touch 9
+        weight: 0
+      - path: rig_grp/rig_RootMotion_grp/do_not_touch 9/Root_result_rst
+        weight: 0
+      - path: rig_grp/rig_RootMotion_grp/do_not_touch 9/Root_result_rst/Root_result
+        weight: 0
+      - path: rig_grp/rig_RootMotion_grp/RootMotion_rst
+        weight: 0
+      - path: rig_grp/rig_RootMotion_grp/RootMotion_rst/RootMotion_ctrl
+        weight: 0
+      - path: rig_grp/rig_spine_grp
+        weight: 0
+      - path: rig_grp/rig_spine_grp/controllers_const_grp 5
+        weight: 0
+      - path: rig_grp/rig_spine_grp/controllers_const_grp 5/Hips_rst
+        weight: 0
+      - path: rig_grp/rig_spine_grp/controllers_const_grp 5/Hips_rst/Hips_ctrl
+        weight: 0
+      - path: rig_grp/rig_spine_grp/controllers_const_grp 5/Spine2_rst
+        weight: 0
+      - path: rig_grp/rig_spine_grp/controllers_const_grp 5/Spine2_rst/Spine2_ctrl
+        weight: 0
+      - path: rig_grp/rig_spine_grp/do_not_touch 12
+        weight: 0
+      - path: rig_grp/rig_spine_grp/do_not_touch 12/Hips_result_rst
+        weight: 0
+      - path: rig_grp/rig_spine_grp/do_not_touch 12/Hips_result_rst/Hips_result
+        weight: 0
+      - path: rig_grp/rig_spine_grp/do_not_touch 12/spine_const_grp
+        weight: 0
+      - path: rig_grp/rig_spine_grp/do_not_touch 12/spine_const_grp/Spine_ik_rst
+        weight: 0
+      - path: rig_grp/rig_spine_grp/do_not_touch 12/spine_const_grp/Spine_ik_rst/Spine_ik_jnts
+        weight: 0
+      - path: rig_grp/rig_spine_grp/do_not_touch 12/spine_const_grp/Spine_ik_rst/Spine_ik_jnts/Spine1_ik_jnts
+        weight: 0
+      - path: rig_grp/rig_spine_grp/do_not_touch 12/spine_const_grp/Spine_ik_rst/Spine_ik_jnts/Spine1_ik_jnts/LeftBand_loc
+        weight: 0
+      - path: rig_grp/rig_spine_grp/do_not_touch 12/spine_const_grp/Spine_ik_rst/Spine_ik_jnts/Spine1_ik_jnts/LeftButterfly_loc
+        weight: 0
+      - path: rig_grp/rig_spine_grp/do_not_touch 12/spine_const_grp/Spine_ik_rst/Spine_ik_jnts/Spine1_ik_jnts/RightBand_loc
+        weight: 0
+      - path: rig_grp/rig_spine_grp/do_not_touch 12/spine_const_grp/Spine_ik_rst/Spine_ik_jnts/Spine1_ik_jnts/RightButterfly_loc
+        weight: 0
+      - path: rig_grp/rig_spine_grp/do_not_touch 12/spine_const_grp/Spine_ik_rst/Spine_ik_jnts/Spine1_ik_jnts/Spine2_ik_jnts
+        weight: 0
+      - path: rig_grp/rig_spine_grp/do_not_touch 12/spine_const_grp/Spine_result_rst
+        weight: 0
+      - path: rig_grp/rig_spine_grp/do_not_touch 12/spine_const_grp/Spine_result_rst/Spine_result
+        weight: 0
+      - path: rig_grp/rig_spine_grp/do_not_touch 12/spine_const_grp/Spine_result_rst/Spine_result/Spine1_result
+        weight: 0
+      - path: rig_grp/rig_spine_grp/do_not_touch 12/spine_const_grp/Spine_result_rst/Spine_result/Spine1_result/Spine2_result
+        weight: 0
+      - path: rig_grp/rig_spine_grp/do_not_touch 12/spine_const_grp/Spine_result_rst/Spine_result/Spine1_result/Spine2_result/cordonRight_loc
+        weight: 0
+      - path: rig_grp/RightTresse_rig_grp
+        weight: 0
+      - path: rig_grp/RightTresse_rig_grp/controllers_const_grp 1
+        weight: 0
+      - path: rig_grp/RightTresse_rig_grp/controllers_const_grp 1/RightTresse_ctrl_rst
+        weight: 0
+      - path: rig_grp/RightTresse_rig_grp/controllers_const_grp 1/RightTresse_ctrl_rst/RightTresse1_ctrl
+        weight: 0
+      - path: rig_grp/RightTresse_rig_grp/controllers_const_grp 1/RightTresse_ctrl_rst/RightTresse1_ctrl/RightTresse2_ctrl
+        weight: 0
+      - path: rig_grp/RightTresse_rig_grp/controllers_const_grp 1/RightTresse_ctrl_rst/RightTresse1_ctrl/RightTresse2_ctrl/RightTresse3_ctrl
+        weight: 0
+      - path: rig_grp/RightTresse_rig_grp/controllers_const_grp 1/RightTresse_ctrl_rst/RightTresse1_ctrl/RightTresse2_ctrl/RightTresse3_ctrl/RightTresse4_ctrl
+        weight: 0
+      - path: rig_grp/RightTresse_rig_grp/controllers_const_grp 1/RightTresse_ctrl_rst/RightTresse1_ctrl/RightTresse2_ctrl/RightTresse3_ctrl/RightTresse4_ctrl/RightTresse5_ctrl
+        weight: 0
+      - path: rig_grp/RightTresse_rig_grp/do_not_touch 1
+        weight: 0
+      - path: rig_grp/RightTresse_rig_grp/do_not_touch 1/RightTresse_result_rst
+        weight: 0
+      - path: rig_grp/RightTresse_rig_grp/do_not_touch 1/RightTresse_result_rst/RightTresse_result
+        weight: 0
+      - path: rig_grp/RightTresse_rig_grp/do_not_touch 1/RightTresse_result_rst/RightTresse_result/RightTresse1_result
+        weight: 0
+      - path: rig_grp/RightTresse_rig_grp/do_not_touch 1/RightTresse_result_rst/RightTresse_result/RightTresse1_result/RightTresse2_result
+        weight: 0
+      - path: rig_grp/RightTresse_rig_grp/do_not_touch 1/RightTresse_result_rst/RightTresse_result/RightTresse1_result/RightTresse2_result/RightTresse3_result
+        weight: 0
+      - path: rig_grp/RightTresse_rig_grp/do_not_touch 1/RightTresse_result_rst/RightTresse_result/RightTresse1_result/RightTresse2_result/RightTresse3_result/RightTresse4_result
+        weight: 0
+      - path: rig_grp/RightTresse_rig_grp/do_not_touch 1/RightTresse_result_rst/RightTresse_result/RightTresse1_result/RightTresse2_result/RightTresse3_result/RightTresse4_result/RightTresse5_result
+        weight: 0
+      maskType: 1
+      maskSource: {fileID: 31900000, guid: 3c41bd022067d6a49a2cfda24e400ee1, type: 2}
+      additiveReferencePoseFrame: 4.68
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: Root
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: b010dd6ad13b36b4391908b59566b7c4,
+    type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
