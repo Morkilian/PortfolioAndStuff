@@ -1,0 +1,3 @@
+[submodule "Packages/PersonalLibrary"]
+	path = Packages/PersonalLibrary
+	url = https://github.com/Morkilian/PersonalLibrary.git
