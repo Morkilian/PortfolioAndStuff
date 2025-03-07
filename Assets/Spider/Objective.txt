@@ -1,0 +1,2 @@
+Procedural moving spider that sticks to the terrain/walls
+Fur shader on it

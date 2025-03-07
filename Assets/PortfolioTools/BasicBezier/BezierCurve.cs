@@ -116,14 +116,28 @@ public class BezierCurve : MonoBehaviour
 
     private void OnDrawGizmos()
     {
+        DrawGizmos(false);
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        DrawGizmos(true);
+    }
+
+    private void DrawGizmos(bool isSelected)
+    {
+#if UNITY_EDITOR
         if (AreReferenceTranformsFilled && !GizmosOnSelectedOnly)
         {
-#if UNITY_EDITOR
+            Color colorTuOse = mLineColor;
+            const float unselectedAlpha = 0.4f;
+            float alpha = isSelected ? mLineColor.a : mLineColor.a * unselectedAlpha;
+            colorTuOse.a = alpha;
             Handles.DrawBezier(startingPointTransform.position, endingPointTransform.position,
             startingTangentTransform.position, endingTangentTransform.position,
-            mLineColor, null, 2);
-            float timeRatio = Mathf.PI  * (1/mDebugSinTime);
-            float ratio = Mathf.Sin(Time.realtimeSinceStartup*timeRatio) * 0.5f + 0.5f;
+            colorTuOse, null, 2);
+            float timeRatio = Mathf.PI * (1 / mDebugSinTime);
+            float ratio = Mathf.Sin(Time.realtimeSinceStartup * timeRatio) * 0.5f + 0.5f;
 
             Vector3 positionOnCurve = GetPosition(ratio);
             //Gizmos.DrawSphere(positionOnCurve, 1.0f);
@@ -131,13 +145,16 @@ public class BezierCurve : MonoBehaviour
             if (m_Animate)
             {
                 float H, S, V;
-                Color.RGBToHSV(mLineColor,out H,out S,out V);
-                Gizmos.color = Color.HSVToRGB((H + 0.5f) % 1, S, V);
+                Color.RGBToHSV(colorTuOse, out H, out S, out V);
+                Color toInject = Color.HSVToRGB((H + 0.5f) % 1, S, V);
+                toInject.a = alpha;
+                Gizmos.color = toInject;
                 Gizmos.DrawLine(positionOnCurve, positionOnCurve + velociy.normalized * 3f);
+                Handles.color = toInject;
                 Handles.CircleHandleCap(0, positionOnCurve, GetRotation(ratio), 3f, EventType.Repaint);
             }
-#endif
         }
+#endif
     }
     #endregion
 

@@ -60,14 +60,16 @@
         private const float PREVIEW_STARTING_Y_POS = 110;
         private const float PREVIEW_HORIZONTAL_MARGIN = 15;
 
-        private const float PREVIEW_SPEED_HORIZONTAL = 270;
+        private const float PREVIEW_SPEED_HORIZONTAL = 540;
         private const float PREVIEW_SPEED_VERTICAL = 270;
         private const float PREVIEW_SPEED_ZOOM = .05f;
 
-        private const string SHADER_NAME = "TFE/Toon/Lightning PBR";
+        private const string SHADER_NAME = "Morkilian/ToonShader/Lightning PBR";
         private const string SETTINGS_NAME = "ToonWindowSettings";
         private const string DEFAULT_MATERIAL_NAME = "M_ToonDefaultMat";
         public const string DEFAULT_MODEL_NAME = "Mo_SuzanneFixed";
+
+        private const string REG_KEY_LAST_FOLDER = "MorkilianToonGradientMakerLastSavedDirectorty";
 
         private static GUIContent gradientGUIContent; 
         #endregion
@@ -81,7 +83,7 @@
         #endregion
 
 
-        [MenuItem("Window/Gradient Maker %&r")]
+        [MenuItem("Tools/Morkilian/Gradient Maker")]
         static void InitWindows()
         {
             MonochromeLookupTableMaker window = (MonochromeLookupTableMaker)EditorWindow.GetWindow(typeof(MonochromeLookupTableMaker));
@@ -167,9 +169,17 @@
             EditorGUILayout.BeginHorizontal();
             if(GUILayout.Button("Save To"))
             {
-                string path = EditorUtility.SaveFilePanel("New gradient location:", file.DirectoryName, file.Name, "png");
+                string value = PlayerPrefs.GetString(REG_KEY_LAST_FOLDER, "");
+                if(value == "" || Directory.Exists(value) == false)
+                {
+                    value = file.DirectoryName;
+                }
+                string path = EditorUtility.SaveFilePanel("New gradient location:", value, file.Name, "png");
                 if (!string.IsNullOrEmpty(path))
                 {
+                    string directoryToSave = path.Replace("//" + file.Name, string.Empty);
+                    PlayerPrefs.SetString(REG_KEY_LAST_FOLDER, directoryToSave);
+                    PlayerPrefs.Save();
                     file = new FileInfo(path);
                     SaveNewTexture(path);
                 }
@@ -288,7 +298,7 @@
         /// </summary>
         private void ReloadPreviewMeshInfo()
         {
-            string toDebug = "Reloading mesh info!";
+            //string toDebug = "Reloading mesh info!";
             try
             {
                 previewMeshFilter = modelMesh.GetComponentInChildren<MeshFilter>();
@@ -451,6 +461,8 @@
             //}
 
             EditorUtility.DisplayDialog("File saved.", "The file was saved successfully! You may need to reload (Ctrl+R) to see it in the Project window.", "Accept.");
+            AssetDatabase.SaveAssets();
+            AssetDatabase.Refresh();
             return;
 
         }

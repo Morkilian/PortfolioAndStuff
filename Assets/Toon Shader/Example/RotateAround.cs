@@ -10,7 +10,7 @@ public class RotateAround : MonoBehaviour
 
     private Color currentColor = Color.red;
     private float rotationSpeed = 0;
-    Light light;
+    private new Light light;
 
     private void Start()
     {

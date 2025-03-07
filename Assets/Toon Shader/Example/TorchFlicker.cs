@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Morkilian.Helper;
+using Morkilian;
 //using NaughtyAttributes;
 [ExecuteInEditMode]
 public class TorchFlicker : MonoBehaviour
@@ -10,20 +11,20 @@ public class TorchFlicker : MonoBehaviour
       
     [SerializeField] private bool m_PreviewEditor = false;
     [Header("MinMax")]
-    [Tooltip("The minimal and maximal values of the light intensity.")]public RangedCurve m_RelativeIntensityInfo = new RangedCurve(0.9f, 1.1f);
-    [Tooltip("The minimal and maximal values of the light movement (sphere distance).")] public RangedCurve m_AbsoluteDistanceOffsetInfo = new RangedCurve(0.2f, 0.5f);
-    [Tooltip("The minimal and maximal values of the light range.")] public RangedCurve m_RelativeRangeFlicker = new RangedCurve(.9f, 1.1f);
+    [Tooltip("The minimal and maximal values of the light intensity.")]public MinMaxCurved m_RelativeIntensityInfo = new MinMaxCurved(0.9f, 1.1f);
+    [Tooltip("The minimal and maximal values of the light movement (sphere distance).")] public MinMaxCurved m_AbsoluteDistanceOffsetInfo = new MinMaxCurved(0.2f, 0.5f);
+    [Tooltip("The minimal and maximal values of the light range.")] public MinMaxCurved m_RelativeRangeFlicker = new MinMaxCurved(.9f, 1.1f);
     [Header("Regular")]
     [Tooltip("The ratio between which the regular flicking will have its intensity (0 being the minimal, 1 being the maximal)")] [MinMaxSlider(0f, 1f)] public Vector2 m_RegularFlickIntensity = new Vector2(0.4f, 0.6f);
     //[Range(0f, .5f)] [Tooltip("The ratio between which the regular flicking will have its range (0 being the minimal, 1 being the maximal)")] public float m_RegularDistanceFlick = 0.2f;
     [Tooltip("The ratio between which the regular flicking will have its movement (0 being the minimal, 1 being the maximal)")] [MinMaxSlider(0f,1f)] public Vector2 m_RegularFlickRange = new Vector2(0.4f,0.6f);
     [Header("Timing")]
-    [Tooltip("The minimal and maximal time before the next big flickering comes.")] public RangedCurve m_TimeUntilNextBigFlick = new RangedCurve(2f, 7f);
-    [Tooltip("The minimal and maximal intensity added when a big flick comes.")] public RangedCurve m_BigFlickInfo = new RangedCurve(1f, 1.5f);
-    [Tooltip("The minimal and maximal overall duration of the flickering.")]public RangedCurve m_FlickDuration = new RangedCurve(0.2f, 0.3f);
+    [Tooltip("The minimal and maximal time before the next big flickering comes.")] public MinMaxCurved m_TimeUntilNextBigFlick = new MinMaxCurved(2f, 7f);
+    [Tooltip("The minimal and maximal intensity added when a big flick comes.")] public MinMaxCurved m_BigFlickInfo = new MinMaxCurved(1f, 1.5f);
+    [Tooltip("The minimal and maximal overall duration of the flickering.")]public MinMaxCurved m_FlickDuration = new MinMaxCurved(0.2f, 0.3f);
     //[Tooltip("The curve deciding the duration repartition of the flickerings.")] public AnimationCurve m_FlickDurationCurve = new AnimationCurve(MathHelper.LinearCurve.keys);
 
-    private Light light;
+    private new Light light;
     private Light _Light { get { if (light == null) light = GetComponent<Light>(); return light; } }
     private float flickTime = 0f;
     private float flickDuration = 0f;
